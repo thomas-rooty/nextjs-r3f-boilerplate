@@ -1,9 +1,11 @@
 import styles from './page.module.css'
+import Scene from "@/app/scene";
 
 const Home = () => {
   return (
-    <main className={styles.main}>
-    </main>
+    <div className={styles.canvas}>
+      <Scene />
+    </div>
   )
 }
 
